@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade — MinhaAprovação</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f7f9fc;
+      color: #2c3e50;
+      line-height: 1.7;
+    }
+    header {
+      background: #1E5F3A;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 26px; font-weight: 700; margin-bottom: 8px; }
+    header p  { font-size: 14px; opacity: 0.75; }
+    main {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 24px 60px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1E5F3A;
+      margin: 36px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #e8ecef;
+    }
+    p  { margin-bottom: 14px; font-size: 15px; }
+    ul { margin: 0 0 14px 20px; }
+    ul li { margin-bottom: 6px; font-size: 15px; }
+    a  { color: #2980b9; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      border: 1px solid #e8ecef;
+    }
+    .card h3 { font-size: 15px; font-weight: 600; margin-bottom: 8px; color: #1E5F3A; }
+    .badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+      background: #eaf7ef;
+      color: #1E5F3A;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #7f8c8d;
+      border-top: 1px solid #e8ecef;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📘 MinhaAprovação</h1>
+  <p>Política de Privacidade</p>
+</header>
+
+<main>
+
+  <p>Esta Política de Privacidade descreve como o aplicativo <strong>MinhaAprovação</strong> coleta, usa, armazena e protege as informações dos usuários, em conformidade com a <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>.</p>
+
+  <p><strong>Última atualização:</strong> 23 de setembro de 2026.</p>
+
+  <h2>1. Quem somos</h2>
+  <p>O MinhaAprovação é desenvolvido por <strong>Studios MJ</strong>, empresa individual com sede em Salvador, Bahia, Brasil. Somos o controlador dos dados pessoais tratados por este aplicativo.</p>
+  <p>Contato: <a href="mailto:controlhub.br@gmail.com">controlhub.br@gmail.com</a></p>
+
+  <h2>2. Dados coletados</h2>
+
+  <div class="card">
+    <span class="badge">Conta</span>
+    <h3>Dados de autenticação</h3>
+    <ul>
+      <li>Endereço de e-mail</li>
+      <li>Identificador único de usuário (UID gerado pelo Supabase Auth)</li>
+      <li>Senha, armazenada de forma criptografada (nunca em texto simples)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <span class="badge">Uso do app</span>
+    <h3>Atividade de estudo</h3>
+    <ul>
+      <li>Respostas dadas a cada questão (alternativa escolhida, se acertou ou errou, data/hora)</li>
+      <li>Simulados montados e seu histórico de desempenho</li>
+      <li>Quantidade de questões respondidas no dia, para controlar o limite do plano gratuito</li>
+      <li>Relatos de erro em questões que você enviar (banca marcou gabarito errado, comentário incorreto etc.), incluindo o texto livre que você escrever</li>
+    </ul>
+    <p>Esses dados são armazenados na nuvem (Supabase, com infraestrutura no Brasil) e sincronizados entre dispositivos onde você fizer login com a mesma conta.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge">Assinatura</span>
+    <h3>Status do plano</h3>
+    <p>O aplicativo guarda a data até quando sua assinatura premium está ativa (quando você tiver uma). Nesta fase de teste interno, ainda não há cobrança nem plano pago em funcionamento. Quando a assinatura premium for lançada, o pagamento será processado pelo <strong>Google Play Billing</strong>, com o status gerenciado pelo <strong>RevenueCat</strong> — esta política será atualizada com os detalhes antes disso entrar no ar.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge">Fontes</span>
+    <h3>Fontes de texto (Google Fonts)</h3>
+    <p>O app usa o pacote Google Fonts para exibir as fontes da interface. Ao carregar uma fonte pela primeira vez, seu dispositivo pode se conectar aos servidores do Google para baixá-la, o que expõe o endereço IP do dispositivo ao Google nesse momento.</p>
+  </div>
+
+  <h2>3. Como usamos os dados</h2>
+  <ul>
+    <li>Autenticar e identificar sua conta com segurança</li>
+    <li>Sincronizar seu progresso e histórico entre dispositivos</li>
+    <li>Controlar o limite diário de questões do plano gratuito</li>
+    <li>Gerar os PDFs de prova e gabarito comentado que você pedir para exportar (processado no próprio aparelho)</li>
+    <li>Analisar e corrigir relatos de erro enviados sobre questões</li>
+    <li>Melhorar o desempenho e corrigir erros do aplicativo</li>
+  </ul>
+  <p><strong>Não vendemos seus dados pessoais</strong> a terceiros para fins de marketing ou publicidade.</p>
+  <p><strong>O conteúdo das questões (enunciado, alternativas, comentário e resolução) é escrito previamente por nós</strong> — nenhum dado seu é enviado a um serviço de inteligência artificial para gerar o que você vê no app.</p>
+
+  <h2>4. Compartilhamento de dados</h2>
+  <p>Compartilhamos dados apenas com os seguintes prestadores de serviço, estritamente necessários para o funcionamento do aplicativo:</p>
+
+  <table style="width:100%;border-collapse:collapse;font-size:14px;margin-bottom:16px">
+    <thead>
+      <tr style="background:#1E5F3A;color:#fff">
+        <th style="padding:10px 12px;text-align:left">Serviço</th>
+        <th style="padding:10px 12px;text-align:left">Finalidade</th>
+        <th style="padding:10px 12px;text-align:left">Política</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #e8ecef">
+        <td style="padding:10px 12px">Supabase</td>
+        <td style="padding:10px 12px">Autenticação, banco de dados e armazenamento de imagens das questões</td>
+        <td style="padding:10px 12px"><a href="https://supabase.com/privacy" target="_blank">Ver</a></td>
+      </tr>
+      <tr style="border-bottom:1px solid #e8ecef;background:#f7f9fc">
+        <td style="padding:10px 12px">Google Fonts</td>
+        <td style="padding:10px 12px">Fontes de texto da interface</td>
+        <td style="padding:10px 12px"><a href="https://policies.google.com/privacy" target="_blank">Ver</a></td>
+      </tr>
+      <tr style="border-bottom:1px solid #e8ecef">
+        <td style="padding:10px 12px">Google Play Billing</td>
+        <td style="padding:10px 12px">Processamento de pagamentos (quando a assinatura estiver ativa)</td>
+        <td style="padding:10px 12px"><a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=pt-BR" target="_blank">Ver</a></td>
+      </tr>
+      <tr style="background:#f7f9fc">
+        <td style="padding:10px 12px">RevenueCat</td>
+        <td style="padding:10px 12px">Gerenciamento do status da assinatura (quando estiver ativa)</td>
+        <td style="padding:10px 12px"><a href="https://www.revenuecat.com/privacy" target="_blank">Ver</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>5. Armazenamento e segurança</h2>
+  <p>Seus dados são armazenados nos servidores do <strong>Supabase</strong>, com infraestrutura na região de São Paulo, Brasil, com criptografia em trânsito e em repouso.</p>
+  <p>O banco de dados é configurado para que <strong>ninguém consiga ler questão, alternativa ou comentário por consulta direta</strong> — todo acesso passa por funções de servidor que conferem sua assinatura antes de devolver qualquer conteúdo, e o gabarito só é revelado depois que você responde à questão.</p>
+  <p>O acesso aos seus próprios dados (respostas, simulados, relatos) é restrito exclusivamente à sua conta. Nenhum outro usuário pode visualizá-los.</p>
+
+  <h2>6. Retenção de dados</h2>
+  <ul>
+    <li><strong>Dados da conta e atividade de estudo:</strong> mantidos enquanto sua conta estiver ativa</li>
+    <li><strong>Após exclusão da conta:</strong> dados pessoais removidos em até 30 dias</li>
+  </ul>
+
+  <h2>7. Seus direitos (LGPD)</h2>
+  <p>Conforme a Lei Geral de Proteção de Dados, você tem direito a:</p>
+  <ul>
+    <li><strong>Acesso:</strong> solicitar uma cópia dos seus dados pessoais</li>
+    <li><strong>Correção:</strong> atualizar dados incorretos ou desatualizados</li>
+    <li><strong>Exclusão:</strong> solicitar a remoção dos seus dados</li>
+    <li><strong>Portabilidade:</strong> receber seus dados em formato estruturado</li>
+    <li><strong>Revogação do consentimento:</strong> cancelar o uso de dados a qualquer momento</li>
+    <li><strong>Oposição:</strong> opor-se a determinados tratamentos de dados</li>
+  </ul>
+  <p>Para exercer qualquer um desses direitos, entre em contato pelo e-mail: <a href="mailto:controlhub.br@gmail.com">controlhub.br@gmail.com</a></p>
+  <p>Você também pode solicitar a exclusão da sua conta pela página <a href="excluir-conta.html">Exclusão de conta</a>, mesmo sem ter mais o aplicativo instalado.</p>
+
+  <h2>8. Crianças</h2>
+  <p>O MinhaAprovação é voltado à preparação para concursos públicos, destinado a candidatos maiores de idade. Não é direcionado a crianças menores de 13 anos e não coletamos intencionalmente dados de menores. Se você identificar que uma criança nos forneceu dados sem consentimento parental, entre em contato para que possamos removê-los.</p>
+
+  <h2>9. Permissões do aplicativo</h2>
+  <ul>
+    <li><strong>Internet:</strong> necessário para login, sincronização de respostas/simulados e carregamento das questões</li>
+    <li><strong>Armazenamento:</strong> para salvar os PDFs de prova e gabarito que você exportar</li>
+  </ul>
+  <p>O app não solicita acesso a câmera, microfone, contatos, localização ou agenda.</p>
+
+  <h2>10. Alterações nesta política</h2>
+  <p>Podemos atualizar esta política periodicamente, especialmente quando novas funcionalidades (como a assinatura premium) entrarem no ar. Alterações significativas serão comunicadas por meio de notificação no aplicativo. A data de última atualização está sempre indicada no início deste documento.</p>
+
+  <h2>11. Contato</h2>
+  <p>Para dúvidas, solicitações ou reclamações sobre privacidade:</p>
+  <ul>
+    <li><strong>E-mail:</strong> <a href="mailto:controlhub.br@gmail.com">controlhub.br@gmail.com</a></li>
+    <li><strong>Desenvolvedor:</strong> Studios MJ — Salvador, Bahia, Brasil</li>
+  </ul>
+
+</main>
+
+<footer>
+  &copy; 2026 Studios MJ · MinhaAprovação · Todos os direitos reservados
+</footer>
+
+</body>
+</html>
