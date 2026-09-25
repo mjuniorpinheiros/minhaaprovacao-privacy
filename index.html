@@ -78,7 +78,7 @@
 
   <p>Esta Política de Privacidade descreve como o aplicativo <strong>MinhaAprovação</strong> coleta, usa, armazena e protege as informações dos usuários, em conformidade com a <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>.</p>
 
-  <p><strong>Última atualização:</strong> 23 de setembro de 2026.</p>
+  <p><strong>Última atualização:</strong> 25 de setembro de 2026.</p>
 
   <h2>1. Quem somos</h2>
   <p>O MinhaAprovação é desenvolvido por <strong>Studios MJ</strong>, empresa individual com sede em Salvador, Bahia, Brasil. Somos o controlador dos dados pessoais tratados por este aplicativo.</p>
@@ -93,6 +93,7 @@
       <li>Endereço de e-mail</li>
       <li>Identificador único de usuário (UID gerado pelo Supabase Auth)</li>
       <li>Senha, armazenada de forma criptografada (nunca em texto simples)</li>
+      <li>Se você entrar com o Google: e-mail, nome e foto de perfil da sua conta Google, repassados pelo próprio Google com a sua autorização</li>
     </ul>
   </div>
 
@@ -111,7 +112,25 @@
   <div class="card">
     <span class="badge">Assinatura</span>
     <h3>Status do plano</h3>
-    <p>O aplicativo guarda a data até quando sua assinatura premium está ativa (quando você tiver uma). Nesta fase de teste interno, ainda não há cobrança nem plano pago em funcionamento. Quando a assinatura premium for lançada, o pagamento será processado pelo <strong>Google Play Billing</strong>, com o status gerenciado pelo <strong>RevenueCat</strong> — esta política será atualizada com os detalhes antes disso entrar no ar.</p>
+    <p>O pagamento da assinatura premium é processado pelo <strong>Google Play Billing</strong>; nós não recebemos nem guardamos dados de cartão ou de pagamento. O status da assinatura é gerenciado pelo <strong>RevenueCat</strong>, que identifica você apenas pelo seu identificador de usuário (UID). O aplicativo guarda a data até quando o seu acesso premium está ativo e a data do primeiro pagamento pela loja (usada no programa de indicação).</p>
+  </div>
+
+  <div class="card">
+    <span class="badge">Publicidade</span>
+    <h3>Anúncios no plano gratuito (Google AdMob)</h3>
+    <p>No plano gratuito, o app exibe anúncios do <strong>Google AdMob</strong>. Para exibir e medir esses anúncios, o AdMob coleta o <strong>ID de publicidade</strong> do Android, o endereço IP e informações técnicas do aparelho (modelo, versão do sistema, idioma) e interações com os anúncios. Quando exigido, o app pede o seu consentimento antes de mostrar anúncios personalizados.</p>
+    <p>Você pode redefinir ou excluir o ID de publicidade a qualquer momento nas configurações do Android (Google → Anúncios). Assinantes do premium não veem anúncios, e o app não carrega anúncio para eles.</p>
+  </div>
+
+  <div class="card">
+    <span class="badge">Indicação</span>
+    <h3>Programa "Indique e ganhe"</h3>
+    <ul>
+      <li>Um código de indicação próprio, gerado para a sua conta</li>
+      <li>Se você chegou por indicação: o vínculo entre a sua conta e a de quem indicou, a origem (link ou código digitado) e se você assinou o premium pela loja — sem valores e sem dados de pagamento</li>
+      <li>Ao instalar por um link de indicação, o app lê da Google Play o parâmetro de instalação (<em>install referrer</em>), que contém apenas o código de quem indicou</li>
+    </ul>
+    <p>Quem indicou vê só a <strong>quantidade</strong> de pessoas indicadas e de assinaturas — nunca o nome, o e-mail ou qualquer outro dado de quem foi indicado.</p>
   </div>
 
   <div class="card">
@@ -127,6 +146,8 @@
     <li>Controlar o limite diário de questões do plano gratuito</li>
     <li>Gerar os PDFs de prova e gabarito comentado que você pedir para exportar (processado no próprio aparelho)</li>
     <li>Analisar e corrigir relatos de erro enviados sobre questões</li>
+    <li>Exibir anúncios no plano gratuito</li>
+    <li>Contar as indicações e conceder o mês grátis do programa "Indique e ganhe"</li>
     <li>Melhorar o desempenho e corrigir erros do aplicativo</li>
   </ul>
   <p><strong>Não vendemos seus dados pessoais</strong> a terceiros para fins de marketing ou publicidade.</p>
@@ -156,13 +177,23 @@
       </tr>
       <tr style="border-bottom:1px solid #e8ecef">
         <td style="padding:10px 12px">Google Play Billing</td>
-        <td style="padding:10px 12px">Processamento de pagamentos (quando a assinatura estiver ativa)</td>
+        <td style="padding:10px 12px">Processamento de pagamentos da assinatura</td>
         <td style="padding:10px 12px"><a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=pt-BR" target="_blank">Ver</a></td>
       </tr>
       <tr style="background:#f7f9fc">
         <td style="padding:10px 12px">RevenueCat</td>
-        <td style="padding:10px 12px">Gerenciamento do status da assinatura (quando estiver ativa)</td>
+        <td style="padding:10px 12px">Gerenciamento do status da assinatura</td>
         <td style="padding:10px 12px"><a href="https://www.revenuecat.com/privacy" target="_blank">Ver</a></td>
+      </tr>
+      <tr style="border-bottom:1px solid #e8ecef">
+        <td style="padding:10px 12px">Google AdMob</td>
+        <td style="padding:10px 12px">Anúncios no plano gratuito</td>
+        <td style="padding:10px 12px"><a href="https://policies.google.com/technologies/ads" target="_blank">Ver</a></td>
+      </tr>
+      <tr style="background:#f7f9fc">
+        <td style="padding:10px 12px">Google (Login com Google e Google Play)</td>
+        <td style="padding:10px 12px">Entrar com a conta Google; ler o código de indicação da instalação</td>
+        <td style="padding:10px 12px"><a href="https://policies.google.com/privacy" target="_blank">Ver</a></td>
       </tr>
     </tbody>
   </table>
@@ -198,6 +229,8 @@
   <ul>
     <li><strong>Internet:</strong> necessário para login, sincronização de respostas/simulados e carregamento das questões</li>
     <li><strong>Armazenamento:</strong> para salvar os PDFs de prova e gabarito que você exportar</li>
+    <li><strong>ID de publicidade (AD_ID):</strong> usado pelo Google AdMob para os anúncios do plano gratuito</li>
+    <li><strong>Cobrança do Google Play:</strong> para processar a assinatura</li>
   </ul>
   <p>O app não solicita acesso a câmera, microfone, contatos, localização ou agenda.</p>
 
